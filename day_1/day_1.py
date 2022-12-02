@@ -1,5 +1,6 @@
 #day_1 AOC 2022 python file
 import time
+import sys
 FULL_DATA, TEST_DATA = "./day_1/day_1.txt", "./day_1/day_1_min.txt"
 
 def execute_time(func):
@@ -26,4 +27,5 @@ with open(FULL_DATA) as f:
 
 part_one(calorie_counts)
 part_two(calorie_counts)
+print(sys.path)
 
